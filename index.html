@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha página</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">   <!-- Linkando o bootstrap-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light margin">  <!--Cria uma "tela" em cima no navegador. ESSES ITENS FORAM PEGOS NO SITE DO BOOTSTRAP--> 
+        <a class="navbar-brand" href="#">
+            <img src="img/logo1" width="170" height="80"></a>
+            <div class="collapse navbar-collapse">   <!--Permite que se digite algo nessa "tela" mencionada acima-->
+                <ul class="navbar-nav">   <!--IMPORTANTE: sempre transformar o que quer ser modificado via css em class pra depois conseguir ir no css e por o nome da class. Exemplo: .navbar => vai colocar todos os estilos nessa classe-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#serviços">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <section id="quemsomos">   <!--Uma section -->
+        <div class="container-fluid quem-somos text-center margin">
+            <h3>Quem somos</h3>
+            <img src="img/time.jpg" class="rounded-circle"  width="200" height="200">
+            <h3>Somos um time comprometidos com os resultados</h3>
+        </div>
+    </section>
+
+    <section id="parceiros">
+        <div class="conteiner-fluid text-center margin parceiros">
+            <h3 class="margin">PARCEIROS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"> 
+            
+                        <img src="img/logo2.png" width="100%">
+                    </div>
+                    <div class="col-md-4">
+                       
+                        <img src="img/logo2.png" width="100%">
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <img src="img/logo2.png" width="100%">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="serviços">
+        <div class="conteiner-fluid text-center margin serviços">
+            <h3 class="margin">SERVIÇOS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Brenda Carolina Melo dos Santos. Idade 27, nascida e criada em São Paulo, SP</p>
+                        <img src="img/site1.jpg " width="100%">
+                    </div>
+                    <div class="col-md-4">
+                        <p>Brenda Carolina Melo dos Santos. Idade 27, nascida e criada em São Paulo, SP</p>
+                        <img src="img/site1.jpg " width="100%">
+                </div>
+                <div class="col-md-4">
+                    <p>Brenda Carolina Melo dos Santos. Idade 27, nascida e criada em São Paulo, SP</p>
+                    <img src="img/site1.jpg " width="100%">
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Brenda Carolina</p>
+    </footer>
+    
+
+    </body>
+    
+</html>

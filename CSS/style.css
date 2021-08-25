@@ -1,0 +1,27 @@
+
+body{
+    font: 20px arial sans-serif;
+}
+.navbar{
+    background-color: #b4f79e;
+}
+
+.quem-somos{
+    background-color: rgb(149, 224, 247);
+    color: white;
+}
+
+.margin{
+    padding-bottom: 50px;                        
+    /* padding-top: 30px; - padding permite que a margem seja total. Se fosse margin-top iria dar um espaço e dps o texto */ 
+    padding-top: 10px;
+}
+
+.parceiros{
+    background-color: #8c8cf5;
+}
+
+.bg-footer{
+    background-color: black;
+    color:white;
+}
